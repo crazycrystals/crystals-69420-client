@@ -281,7 +281,7 @@ public class AntiAFK extends Module {
             NbtList messagesTag = tag.getList("messages", 8);
             for (NbtElement messageTag : messagesTag) messages.add(messageTag.asString());
         } else {
-            messages.add("This is an AntiAFK message. Meteor on Crack!");
+            messages.add("This is an AntiAFK message. Crystals 69420 Client on Meth!!");
         }
 
         return super.fromTag(tag);

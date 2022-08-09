@@ -50,7 +50,7 @@ public class MeteorTextHud {
         ROTATION = addPreset("Rotation", "{camera.direction} #1({round(camera.yaw, 1)}, {round(camera.pitch, 1)})", 0);
         MODULE_ENABLED = addPreset("Module enabled", "Kill Aura: {meteor.is_module_active(\"kill-aura\") ? #2 \"ON\" : #3 \"OFF\"}", 0);
         MODULE_ENABLED_WITH_INFO = addPreset("Module enabled with info", "Kill Aura: {meteor.is_module_active(\"kill-aura\") ? #2 \"ON\" : #3 \"OFF\"} #1{meteor.get_module_info(\"kill-aura\")}", 0);
-        WATERMARK = addPreset("Watermark", "Meteor Client #1{version}", Integer.MAX_VALUE);
+        WATERMARK = addPreset("Watermark", "Crystals 69420 Client #1{version}", Integer.MAX_VALUE); // how many FUCKING times do I have to tell you that this is crystals 69420 GOD DAMN CLIENT
         BARITONE = addPreset("Baritone", "Baritone: #1{baritone.process_name}");
     }
 

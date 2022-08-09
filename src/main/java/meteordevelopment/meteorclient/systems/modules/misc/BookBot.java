@@ -57,7 +57,7 @@ public class BookBot extends Module {
     private final Setting<String> name = sgGeneral.add(new StringSetting.Builder()
         .name("name")
         .description("The name you want to give your books.")
-        .defaultValue("Meteor on Crack!")
+        .defaultValue("Crystals 69420 Client on Meth!")
         .build()
     );
 

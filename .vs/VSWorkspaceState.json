@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\java",
+    "\\src\\main\\java\\meteordevelopment",
+    "\\src\\main\\java\\meteordevelopment\\meteorclient",
+    "\\src\\main\\java\\meteordevelopment\\meteorclient\\systems",
+    "\\src\\main\\java\\meteordevelopment\\meteorclient\\systems\\commands",
+    "\\src\\main\\java\\meteordevelopment\\meteorclient\\systems\\hud",
+    "\\src\\main\\java\\meteordevelopment\\meteorclient\\systems\\modules"
+  ],
+  "SelectedNode": "\\src\\main\\java\\meteordevelopment\\meteorclient\\systems\\hud\\Hud.java",
+  "PreviewInSolutionExplorer": false
+}

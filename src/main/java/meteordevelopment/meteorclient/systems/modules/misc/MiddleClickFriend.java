@@ -40,7 +40,7 @@ public class MiddleClickFriend extends Module {
         if (event.action == KeyAction.Press && event.button == GLFW_MOUSE_BUTTON_MIDDLE && mc.currentScreen == null && mc.targetedEntity != null && mc.targetedEntity instanceof PlayerEntity player) {
             if (!Friends.get().isFriend(player)) {
                 Friends.get().add(new Friend(player));
-                if (message.get()) ChatUtils.sendPlayerMsg("/msg " + player.getEntityName() + " I just friended you on Meteor.");
+                if (message.get()) ChatUtils.sendPlayerMsg("/msg " + player.getEntityName() + " I just friended you on Crystals 69420 Client.");
             } else {
                 Friends.get().remove(Friends.get().get(player));
             }

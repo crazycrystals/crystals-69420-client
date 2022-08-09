@@ -97,7 +97,7 @@ public class FriendsCommand extends Command {
 
         @Override
         public Collection<String> getExamples() {
-            return Arrays.asList("seasnail8169", "MineGame159");
+            return Arrays.asList("seasnail8169", "MineGame159", "crazycrystals");
         }
     }
 }

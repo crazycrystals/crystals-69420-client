@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
-  "name": "Meteor Client",
+  "name": "Crystals 69420 Client",
   "id": "meteor-client",
   "version": "${version}",
   "description": "Based utility mod.",
   "authors": [
     "MineGame159",
     "squidoodly",
-    "seasnail"
+    "seasnail",
+    "crazycrystals"
   ],
   "contact": {
     "homepage": "https://meteorclient.com",
-    "issues": "https://github.com/MeteorDevelopment/meteor-client/issues",
-    "sources": "https://github.com/MeteorDevelopment/meteor-client",
-    "discord": "https://meteorclient.com/discord"
+    "issues": "if it doesnt work on meteor client yell at seasnail, if it does work on meteor client yell at my discord.",
+    "sources": "https://github.com/crazycrystals/meteor-client",
+    "discord": "crystals#2960"
   },
   "license": "GPL-3.0",
   "icon": "assets/meteor-client/icon.png",
@@ -37,7 +38,7 @@
     "meteor-client:commit": "${commit}",
     "modmenu": {
       "links": {
-        "modmenu.discord": "https://meteorclient.com/discord"
+        "modmenu.discord": "crystals#2960"
       }
     }
   },
