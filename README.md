@@ -3,8 +3,8 @@
 <img src="https://meteorclient.com/icon.png" alt="meteor-client-logo" width="15%"/>
 </p>
 
-<h1 align="center">Meteor</h1>
-<p align="center">A Minecraft Fabric Utility Mod for anarchy servers.</p>
+<h1 align="center">~~Meteor~~Crystals 69420 Client</h1>
+<p align="center">A Minecraft Fabric Utility Mod for ~~anarchy~~minehut servers.</p>
 
 <div align="center">
     <a href="https://discord.gg/bBGQZvd"><img src="https://img.shields.io/discord/689197705683140636?logo=discord" alt="Discord"/></a>
@@ -44,6 +44,7 @@ All of our work is completely free and non-profit (donations pay only for hostin
 Donations can be made via our [website](https://meteorclient.com/donate) and the minimum amount to get donor benefits is €5.  
 You will be rewarded with a role on our Discord server and a customisable in-game cape.  
 ⚠️ _Make sure to create a Meteor account and link your Discord and Minecraft accounts to fully experience your rewards._ ⚠️
+Seriously, donate to meteor not me 
 
 ## Credits
 [Cabaletta](https://github.com/cabaletta) and [WagYourTail](https://github.com/wagyourtail) for [Baritone](https://github.com/cabaletta/baritone)  
@@ -56,5 +57,5 @@ If you use **ANY** code from the source:
 - You must disclose the source code of your modified work and the source code you took from this project. This means you are not allowed to use code from this project (even partially) in a closed-source and/or obfuscated application.
 - You must state clearly and obviously to all end users that you are using code from this project.
 - Your application must also be licensed under the same license.
-
+Hey, Crystals here this is a fork of meteor incase its NOT FUCKING OBVIOUS ALREADY
 *If you have any other questions, check our [FAQ](https://meteorclient.com/faq) or ask in our [Discord](https://meteorclient.com/discord) server.*
