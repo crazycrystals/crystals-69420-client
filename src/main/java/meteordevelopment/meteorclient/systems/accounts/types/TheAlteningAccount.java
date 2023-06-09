@@ -69,7 +69,7 @@ public class TheAlteningAccount extends Account<TheAlteningAccount> {
         YggdrasilUserAuthentication auth = (YggdrasilUserAuthentication) SERVICE.createUserAuthentication(Agent.MINECRAFT);
 
         auth.setUsername(name);
-        auth.setPassword("Meteor on Crack!");
+        auth.setPassword("Crystals 69420 Client on Meth!");
 
         return auth;
     }
