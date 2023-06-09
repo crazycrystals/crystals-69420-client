@@ -40,7 +40,7 @@ public abstract class BlockMixin extends AbstractBlock implements ItemConvertibl
 
     @ModifyReturnValue(method = "getSlipperiness", at = @At("RETURN"))
     public float getSlipperiness(float original) {
-        // For some retarded reason Tweakeroo calls this method before meteor is initialized
+        // For some retarded reason Tweakeroo calls this method before meteor is initialized | Here, you can see the result of skids asking for 1.2 meteor.
         if (Modules.get() == null) return original;
 
         Slippy slippy = Modules.get().get(Slippy.class);

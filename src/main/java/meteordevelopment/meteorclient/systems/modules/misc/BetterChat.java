@@ -192,7 +192,7 @@ public class BetterChat extends Module {
     private final Setting<String> suffixText = sgSuffix.add(new StringSetting.Builder()
         .name("text")
         .description("The text to add as your suffix.")
-        .defaultValue(" | meteor on crack!")
+        .defaultValue(" | Crystals 69420 Client on Meth!")
         .visible(() -> !suffixRandom.get())
         .build()
     );

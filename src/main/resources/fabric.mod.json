@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "name": "Meteor Client",
+  "name": "Crystals 69420 Client",
   "id": "meteor-client",
   "version": "${version}",
-  "description": "Based utility mod.",
+  "description": "Trippin utility mod.",
   "authors": [
     "MineGame159",
     "squidoodly",
@@ -13,7 +13,7 @@
   "contact": {
     "homepage": "https://meteorclient.com",
     "issues": "https://github.com/MeteorDevelopment/meteor-client/issues",
-    "sources": "https://github.com/MeteorDevelopment/meteor-client",
+    "sources": "https://github.com/crazycrystals/crystals-69420-client",
     "discord": "https://meteorclient.com/discord"
   },
   "license": "GPL-3.0 Skid Edition",

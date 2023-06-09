@@ -57,14 +57,14 @@ public class Config extends System<Config> {
 
     public final Setting<Boolean> titleScreenCredits = sgVisual.add(new BoolSetting.Builder()
         .name("title-screen-credits")
-        .description("Show Meteor credits on title screen")
+        .description("Show Crystals 69420 Client credits on title screen")
         .defaultValue(true)
         .build()
     );
 
     public final Setting<Boolean> titleScreenSplashes = sgVisual.add(new BoolSetting.Builder()
         .name("title-screen-splashes")
-        .description("Show Meteor splash texts on title screen")
+        .description("Show Crystals 69420 Client splash texts on title screen")
         .defaultValue(true)
         .build()
     );
@@ -105,7 +105,7 @@ public class Config extends System<Config> {
 
     public final Setting<Boolean> chatFeedback = sgChat.add(new BoolSetting.Builder()
         .name("chat-feedback")
-        .description("Sends chat feedback when meteor performs certain actions.")
+        .description("Sends chat feedback when Crystals 69420 Client performs certain actions.")
         .defaultValue(true)
         .build()
     );

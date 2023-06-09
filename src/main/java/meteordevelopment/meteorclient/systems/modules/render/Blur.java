@@ -72,7 +72,7 @@ public class Blur extends Module {
 
     private final Setting<Boolean> meteor = sgScreens.add(new BoolSetting.Builder()
         .name("meteor")
-        .description("Applies blur to Meteor screens.")
+        .description("Applies blur to Crystals 69420 Client screens.")
         .defaultValue(true)
         .build());
 
