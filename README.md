@@ -3,8 +3,8 @@
 <img src="https://meteorclient.com/icon.png" alt="meteor-client-logo" width="15%"/>
 </p>
 
-<h1 align="center">~~Meteor~~Crystals 69420 Client</h1>
-<p align="center">A Minecraft Fabric Utility Mod for ~~anarchy~~minehut servers.</p>
+<h1 align="center">~Meteor~Crystals 69420 Client</h1>
+<p align="center">A Minecraft Fabric Utility Mod for ~anarchy~minehut servers.</p>
 
 <div align="center">
     <a href="https://discord.gg/bBGQZvd"><img src="https://img.shields.io/discord/689197705683140636?logo=discord" alt="Discord"/></a>
