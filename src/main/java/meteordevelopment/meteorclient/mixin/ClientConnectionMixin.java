@@ -5,6 +5,7 @@
 
 package meteordevelopment.meteorclient.mixin;
 
+import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelPipeline;
 import io.netty.handler.proxy.Socks4ProxyHandler;
@@ -12,7 +13,7 @@ import io.netty.handler.proxy.Socks5ProxyHandler;
 import io.netty.handler.timeout.TimeoutException;
 import meteordevelopment.meteorclient.MeteorClient;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
-import meteordevelopment.meteorclient.events.world.ConnectToServerEvent;
+import meteordevelopment.meteorclient.events.world.ServerConnectEndEvent;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import meteordevelopment.meteorclient.systems.modules.misc.AntiPacketKick;
 import meteordevelopment.meteorclient.systems.modules.world.HighwayBuilder;
@@ -52,8 +53,8 @@ public class ClientConnectionMixin {
     }
 
     @Inject(method = "connect", at = @At("HEAD"))
-    private static void onConnect(InetSocketAddress address, boolean useEpoll, CallbackInfoReturnable<ClientConnection> info) {
-        MeteorClient.EVENT_BUS.post(ConnectToServerEvent.get(address));
+    private static void onConnect(InetSocketAddress address, boolean useEpoll, CallbackInfoReturnable<?> cir) {
+        MeteorClient.EVENT_BUS.post(ServerConnectEndEvent.get(address));
     }
 
     @Inject(at = @At("HEAD"), method = "send(Lnet/minecraft/network/packet/Packet;)V", cancellable = true)
