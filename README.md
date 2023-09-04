@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://meteorclient.com/icon.png" alt="meteor-client-logo" width="15%"/>
+<img src="https://raw.githubusercontent.com/flufferyomada/crystals-69420-client/master/src/main/resources/assets/meteor-client/textures/meteor.png" alt="crystals69420-client-logo" width="15%"/>
 </p>
 
 <h1 align="center">~Meteor~Crystals 69420 Client</h1>
